@@ -1,0 +1,88 @@
+
+<div style="
+  font-family: Georgia; margin-top: -8px; padding-top: 10px; padding-bottom: 10px; padding-left: 10px;"> 
+<hr>
+<h1 >Midterm Lab Activity 1: Angular Pipes Demo Discussion</h1>
+<h2>By: Abby Dizon</h2>
+<hr>
+<br>
+<!-- <h2 style="font-style: oblique;">Date Pipes</h2>
+
+<div> 
+  Today's date :- {{presentDate | date }}
+</div>
+
+
+
+<div>
+  This is a short date :- {{presentDate | date: 'shortDate' }} <br/>
+  This line shows the full date :- {{presentDate | date:'fullDate' }}<br/>
+  This will show a formatted date:- {{presentDate | date: 'M/dd/yyyy' }}<br/>
+  This indicates the hours and minutes:- {{presentDate | date: 'h:mm'}}
+</div>
+
+
+<div>
+  Date with uppercase:- {{presentDate | date:'fullDate' | uppercase }}<br/>
+  Date with lowercase:- {{presentDate | date:'fullDate' | lowercase }}<br/>
+
+</div>
+
+<hr>
+<h2 style="font-style: oblique;" >Asynch Pipe</h2>
+  <div> 
+  Seconds changing in Time: {{ time$ | async | date:'mediumTime' }} 
+</div>
+<hr>
+
+
+<h2 style="font-style: oblique;">Json Pipes</h2>
+<p>Object: {{ testObject }}</p>
+<p>Object with JsonPipe: {{ testObject | json }}</p>
+
+<hr>
+
+<h2 style="font-style: oblique;">Currency Pipe</h2>
+<p>{{price | currency:'':true}}</p>
+<p>{{price | currency:'':INR}}</p> -->
+<!--
+<hr>
+<h2 style="font-style: oblique;">Slice Pipe</h2>
+<div>
+  <h3>Start index:- {{Fruits | slice:2}}</h3>
+  <h4>Start and end index:- {{Fruits | slice:1:4}}</h4>
+  <h5>Negative index:- {{Fruits | slice:-2}}</h5>
+  <h6>Negative start and end index:- {{Fruits | slice:-4:2}}</h6>
+
+  <hr>
+</div>
+
+<h2 style="font-style: oblique;">Decimal Pipe</h2>
+<p>Decimal Number 1: {{decimalNum1 | number:'3.1'}}</p>
+<p>Decimal Number 2: {{decimalNum2 | number:'2.14'}}</p>
+
+<hr>
+
+<h3>More Pipes!</h3>
+<h2 style="font-style: oblique;">Percentage Pipe</h2>
+<div> 
+  <p>According to a report by CDC, more than <strong> {{Population | percent}} </strong> of COVID-19 deaths occur in people over age 65.  </p> 
+  <p>Philippines poverty rate at approximately<strong>{{Ph | percent}}</strong> in 2023, statistics agency says.</p> -->
+  <div class="col-md-4">
+    <div class="card p-3 mb-2 " style="padding: 40px!important;">
+        <div class="d-flex justify-content-between">
+            <div class="d-flex flex-row align-items-center">
+              <h2 style="font-style: oblique;">Date Pipe</h2>
+
+            <div class="badge"> <strong>{{ todaydate }}</strong> </div>
+            {{componentproperty}}
+       
+  
+  <app-new-cmp></app-new-cmp>
+  
+</div>
+</div>
+
+</div>
+
+<router-outlet />
